@@ -63,7 +63,7 @@
 
     // Load glTF model (expects model.gltf in same folder)
     const loader = new THREE.GLTFLoader();
-    loader.load('model.gltf', function(gltf) {
+    loader.load('2G-1.150.glb', function(gltf) {
       const model = gltf.scene;
       scene.add(model);
       // compute bbox and frame camera
